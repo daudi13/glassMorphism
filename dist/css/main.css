@@ -97,9 +97,7 @@ body::after {
 .content {
   padding: 20px;
   text-align: center;
-  -webkit-transform: translateY(100px);
-          transform: translateY(100px);
-  opacity: 0;
+  opacity: 1;
   -webkit-transition: 0.5s;
   transition: 0.5s;
 }
@@ -143,11 +141,5 @@ body::after {
           box-shadow: 10px 10px 30px rgba(0, 0, 0, 0.5);
   background: rgba(255, 255, 255, 0.2);
   color: #f2f2f2;
-}
-
-.content:hover {
-  -webkit-transform: translateY(0);
-          transform: translateY(0);
-  opacity: 1;
 }
 /*# sourceMappingURL=main.css.map */
